@@ -15,3 +15,17 @@ The developed Poisson solver on OcTree can be utilized as a numerical solver for
 The FSI module addresses the movement analysis of a system where incompressible fluid interacts with rigid bodies. Due to its complexity and multiscale properties, introducing a multiscale grid like OcTree is crucial for tackling this problem. Traditional methods for computing FSI have used a staggered approach, where the fluid and solid movements are computed sequentially while the other remains fixed.
 
 In this module, however, a monolithic method is employed, which simultaneously solves fluid and solid interactions rather than in a staggered manner. Although more complex, the monolithic method has the advantage of preserving kinetic energy, and the rigorous mathematical analysis proposed by our team clearly guarantees a convergence rate of 1.5 for accuracy.
+
+
+## Authors
+* Chohong Min (chohong@ewha.ac.kr), Department of Mathematics, Ewha Womans University, Republic of Korea
+* Byungjoon Lee (blee@catholic.ac.kr), Department of Mathematics, Catholic University, Republic of Korea
+* Jeongho Kim (jeonghokim@khu.ac.kr), Department of Applied Mathematics, Kyung Hee Univeristy, Republic of Korea
+* Dongnam Ko (dongnamko@catholic.ac.kr), Department of Mathematics, Catholic University, Republic of Korea
+
+
+## Contact
+For questions or support, please contact Prof. Chohong Min.
+
+
+
